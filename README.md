@@ -26,29 +26,27 @@ Your solution path is:
   * Input Duration: 6, 7, 8 (separated for comma and space)
   * Hit Flights -> Check Flights
 
-
-
 ## How-to guide in English
 * Google QPX API Key
   1. Obtain API key for QPX API. Instruction [here](https://developers.google.com/qpx-express/v1/prereqs).
   1. Warning! You will be billed by Google for this API. Free limit described [here](https://developers.google.com/qpx-express/v1/pricing).
 * Setup Google App Script
   1. Create a copy of [this](https://docs.google.com/spreadsheets/d/1Hm7coIj7eFbqAYy5ArHTouvxB7JGzcBV7QMk2juoGK4/edit) google spreadsheet.
-  1. Tools -> Script editor.
+  1. Menu: Tools -> Script editor.
   1. Open Code.gs file.
-  1. In this first line change 'your api key' to key from step 1.
-  1. File -> Save.
-  1. In the menu select 'Run -> getFlights'
+  1. In this first line change 'your api key' to key from step 'Google QPX API Key'.
+  1. Menu: File -> Save.
+  1. Menu: 'Run -> getFlights'
   1. Accept permissions.
   1. Return to spreadsheet and find that line 11 and below are populated with sample data.
   1. Return to Script editor.
   1. Change `var dryRun = true;` to `var dryRun = false;`
-  1. File -> Save.
+  1. Menu: File -> Save.
 * Make first real request
   1. Return to spreadsheet.
   1. Reload spreadsheet.
   1. In the sheet change from/to and other fields.
-  1. In the menu Flights -> Check Flights.
+  1. Menu: Flights -> Check Flights.
 
 ## How-to на русском
 TBD
