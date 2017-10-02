@@ -31,7 +31,9 @@ Your solution path is:
   1. Obtain API key for QPX API. Instruction [here](https://developers.google.com/qpx-express/v1/prereqs).
   1. Warning! You will be billed by Google for this API. Free limit described [here](https://developers.google.com/qpx-express/v1/pricing).
 * Setup Google App Script
-  1. Create a copy of [this](https://docs.google.com/spreadsheets/d/1Hm7coIj7eFbqAYy5ArHTouvxB7JGzcBV7QMk2juoGK4/edit) google spreadsheet.
+  1. Open [this](https://docs.google.com/spreadsheets/d/1Hm7coIj7eFbqAYy5ArHTouvxB7JGzcBV7QMk2juoGK4/edit) google spreadsheet.
+  1. Menu: File -> Make a Copy
+  1. Open created copy.
   1. Menu: Tools -> Script editor.
   1. Open Code.gs file.
   1. In this first line change 'your api key' to key from step 'Google QPX API Key'.
@@ -53,7 +55,9 @@ Your solution path is:
   1. Получить API ключ для QPX API. Инструкция [здесь](https://developers.google.com/qpx-express/v1/prereqs).
   1. Внимание! API стоит денег. Гугл заббилит доступ сверх лимита. Лимит - 50 запросов, детали [здесь](https://developers.google.com/qpx-express/v1/pricing).
 * Настроить Google App Script
-  1. Сделать копию [таблицы](https://docs.google.com/spreadsheets/d/1Hm7coIj7eFbqAYy5ArHTouvxB7JGzcBV7QMk2juoGK4/edit) google spreadsheet.
+  1. Открыть [таблицу](https://docs.google.com/spreadsheets/d/1Hm7coIj7eFbqAYy5ArHTouvxB7JGzcBV7QMk2juoGK4/edit) google spreadsheet.
+  1. Меню: File -> Make a Copy
+  1. Открыть копию.
   1. Меню: Tools -> Script editor.
   1. Открыть файл Code.gs.
   1. В первой строке заменить 'your api key' на ключ из шага 'Google QPX API'.
