@@ -49,7 +49,26 @@ Your solution path is:
   1. Menu: Flights -> Check Flights.
 
 ## How-to на русском
-TBD
+* Ключ к Google QPX API 
+  1. Получить API ключ для QPX API. Инструкция [здесь](https://developers.google.com/qpx-express/v1/prereqs).
+  1. Внимание! API стоит денег. Гугл заббилит доступ сверх лимита. Лимит - 50 запросов, детали [здесь](https://developers.google.com/qpx-express/v1/pricing).
+* Настроить Google App Script
+  1. Сделать копию [таблицы](https://docs.google.com/spreadsheets/d/1Hm7coIj7eFbqAYy5ArHTouvxB7JGzcBV7QMk2juoGK4/edit) google spreadsheet.
+  1. Меню: Tools -> Script editor.
+  1. Открыть файл Code.gs.
+  1. В первой строке заменить 'your api key' на ключ из шага 'Google QPX API'.
+  1. Меню: File -> Save.
+  1. Меню: 'Run -> getFlights'
+  1. Принять разрешения.
+  1. Вернуться в таблицу и увидет что строка 11 и ниже заполнена тестовыми данными.
+  1. Вернуться в Script editor.
+  1. Заменить `var dryRun = true;` to `var dryRun = false;`
+  1. Меню: File -> Save.
+* Выполнить первый запрос на реальных данных
+  1. Вернуться в таблицу.
+  1. Перезагрузить таблицу.
+  1. Поменять откуда/куда и другие поля.
+  1. Меню: Flights -> Check Flights.
 
 ## Source Code
 In this repository you will find full source code for this App.
