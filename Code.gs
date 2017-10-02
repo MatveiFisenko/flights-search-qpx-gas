@@ -1,4 +1,4 @@
-var qpxKey = 'enter you key';
+var qpxKey = 'your api key';
 var dryRun = true;
 
 function getFlights() {
@@ -183,7 +183,7 @@ function makeRequest(s, dryRun) {
 }
 
 
-//запускается при запуске таблицы с установленным дополнением
+//runs on spreadsheet open event
 function onOpen(e) {
   var menu = SpreadsheetApp.getUi()
   .createMenu('Flights')
