@@ -1,7 +1,7 @@
 # flights-search-qpx-gas
 Flights search using QPX API and Google App Script.
 
-Поиск авиа-рейсов с помощью QPX API и Google App Script. Как использовать написано ниже.
+Поиск авиа-рейсов с помощью QPX API и Google App Script. Как использовать - в статье на [хабре](https://habrahabr.ru/post/339166/) и ниже в "How-to".
 
 # What it can do
 ## Quick start
